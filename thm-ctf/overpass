@@ -23,3 +23,16 @@
 7.) login ssh 
   - ssh -i id_rsa james@10.10.49.212
     -use pw to login
+8.) search through directory,
+  - found rot47 crypt withihn overpass, cipher it
+    - name is System and pw is saydrawnlyingpicture
+9.) transfer linpeas through netcat
+10.) use linpeas on james or destined host to find any vulnerabilities.
+  - found vuln with overpass.thm
+    - found w/r in /etc/host
+11.) modify host file with our host
+    nano /etc/host
+      - change location of overpass.thm with our address and ping to test
+12.) create a bash script on source addresss to give us accessible root access
+    - chmod +s /bin/bash
+      - /bin/bash -p to get into root
