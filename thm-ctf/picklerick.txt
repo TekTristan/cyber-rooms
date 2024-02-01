@@ -1,0 +1,29 @@
+1.) put ip in browser, went deeper into the page source to find the username
+	- R1ckRul3s
+
+2.) started nmap scan
+	- nmap -sC -sV 10.10.127.42
+	- found ports 22 and 80 are open 
+
+3.) used gobuster to find hidden directories and/or files that could help me find the password and login
+	- gobuster dir -u ip -w -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt -x php,sh, txt,cgi,html,css,js,py
+		- finding all directories and extensions hidden for passwords or clues
+
+4.) foudn assets and login.php and portal.php
+	- login.php where i used the username
+
+		- got stuck for a bit then used ip/robots.txt since is a it a normal and common place in the webserver and could have clues.		
+			- and the password was there
+
+5.) login into the portal, where it asks for commands so i assumed linux commands would work.
+	-entered ls to find all thf iles including the first ingredient
+
+6.) tried different directories with ls like ls /root  and found using ls /home to find rick and linux folders
+	- went into rick to find the second command, but commands are disabled including cat to open files
+		- tried vim and that didnt work, so research later 'less' works'
+				- less '/home/rick/second ingredient'
+
+7.) since i tried to get root with ls /root and that didnt work, sudo -l helped me escalate my privleges, kinda.
+	- where it gave an error basically saying that using sudo in any command would bypass anything that needed a password
+		- so i reached the conclusion to use sudo ls/root, then found 3rd.txt, cant open it normally so used less to open it
+				- sudo less ls/root/3rd.txt
