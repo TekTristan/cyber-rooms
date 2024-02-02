@@ -1,4 +1,4 @@
-![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/b55e0450-379d-46fb-9434-db937e647e83)bountyhacker writeup
+bountyhacker writeup
   - 
 
 1.) nmap scan to find open ports 
