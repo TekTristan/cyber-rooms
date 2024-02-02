@@ -6,7 +6,7 @@
 	- found ports 22 and 80 are open 
 
 3.) used gobuster to find hidden directories and/or files that could help me find the password and login
-	- gobuster dir -u ip -w -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt -x php,sh, txt,cgi,html,css,js,py
+	- gobuster dir -u ip -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt -x php,sh, txt,cgi,html,css,js,py
 		- finding all directories and extensions hidden for passwords or clues
 
 4.) foudn assets and login.php and portal.php
