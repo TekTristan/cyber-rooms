@@ -1,4 +1,5 @@
 bountyhacker writeup
+  - 
 
 1.) nmap scan to find open ports 
   - 
@@ -6,5 +7,7 @@ bountyhacker writeup
   - given ftp and anonymous, plus files to grab
   - 
 2.) gobuster to find hidden directories just in case
-
+  -
+  
 3.) 
+  - 
