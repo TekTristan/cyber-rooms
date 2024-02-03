@@ -37,6 +37,15 @@ agent sudo ctf woooo
 -
 ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/d4d51b1a-39dc-4178-bde7-ff89d9908a44)
 - grabbed user flag and found another jpg file.
+- used scp to copy over the jpg file to use some website to find where it's from
+- hint was the foxnews website
+![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/7f3df5cf-0799-4064-90a6-bd05639af2f3)
+
+6.) privlege escalation with /bin/bash 
+-
+- looked up what to use to get into root
+  ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/647183cd-9065-4433-96e7-335aea5e3b52)
+- nice
 
 
 
