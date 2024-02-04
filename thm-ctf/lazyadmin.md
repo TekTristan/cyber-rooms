@@ -43,7 +43,13 @@
 - ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/2c901ed6-4fd7-44c0-aa62-08a447db8e40)
 - read and write access with /etc/copy.sh but was not able to write on it with any commandssd, and learned that you can use echo for this
 - ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/ed34251e-82b1-42e4-92f8-1ff600d2a1b0)
+- use netcat first then ran sudo .... to get into root 
 - ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/f56a3fcf-f101-4c01-a001-07f6392b801f)
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/624238ac-c184-4f26-9623-6255df0e89e1)
+
+7.) found root text
+-
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/f27f7fa8-9aeb-4198-ae37-a1d5d6f78144)
 
 
 
