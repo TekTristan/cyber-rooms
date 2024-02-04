@@ -1,4 +1,4 @@
-![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/a9a5b60e-f867-4c8d-aa7a-c01f70cdbe1c)the laziest admin writeup for meh
+the laziest admin writeup for meh
 -
 
 1.) nmap scan for open ports, just always the first step
