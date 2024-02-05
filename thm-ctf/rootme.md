@@ -1,4 +1,4 @@
-![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/b54430cb-df96-40b2-98c5-e3191ee9e345)rootme ctf yaa
+rootme ctf yaa
 -
 
 1.) nmap scan like uszal
