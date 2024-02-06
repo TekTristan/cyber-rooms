@@ -16,3 +16,5 @@ c4ptur3-th3-fl4g ctf, woooo simplish
 -
 -![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/4c7488a9-d6ab-4130-bef4-b15958144a26)
 
+---
+- i got lazy pasting screenshots, self explanatory
