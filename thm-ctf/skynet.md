@@ -35,12 +35,22 @@ skynet ctf, in progresssionnn
 - ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/f4c3afd8-93c2-4359-ae82-118b84c495a4)
 - ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/1f92ee8e-ebab-4ee6-aa45-9761dcbd40f1)
 - webpage of his personal stuff
-- use gobuster again since we found a different hidden directory
 
 6.) gobuster pt2
+-
+- use gobuster again since we found a different hidden directory
+-![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/37479848-01d8-4d96-a4ff-aa6164cf6341)
+- administrator was the hidden directory, then i got lost, used searchsploit since i rememmbered CMS was used with it 
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/78782c4b-016a-400c-80d0-67fe861ab25c)
 
+7.) running the php injection script
+-
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/cf4d041f-e276-4fea-ba67-d88f43820165)
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/46325400-1844-4bbc-b60e-684077f7f230)
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/c33a1785-9041-4235-b8da-01c0d47bb06b)
+- ran the http.server, then netcat, then the url to get user.txt
 
-
-
+8.) root
+-
 - ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/507a778d-4f28-4a00-a2db-a440a5485ccb)
 
