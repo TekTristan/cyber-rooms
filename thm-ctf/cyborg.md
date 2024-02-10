@@ -46,7 +46,8 @@ cyborg ctf, encrpyted archives
 - i am still confused on this part
 - ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/e45e4630-ab0f-44ac-a5b2-bbb3e764dcee)
 - ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/d2618ab3-fc16-4da6-980c-81efdd8ae8fc)
-
+- i wasnt able to run any commands and it wasnt showing up in the root shell so i did the command from before in alex again to change the permissions of the bit on the binary of the root shell command /bin/bash
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/1055888c-7473-4362-8bf4-2fc465fe149e)
 
 
 
