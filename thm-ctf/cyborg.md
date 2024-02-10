@@ -1,4 +1,4 @@
-![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/f88c35d0-9232-4185-9a38-d21208ba99ff)cyborg ctf, encrpyted archives
+cyborg ctf, encrpyted archives
 -
 
 1.) nmap scan like a boss
