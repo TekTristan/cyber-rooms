@@ -7,4 +7,7 @@ spooky tom ctf!!!
 - i can see that port 8000 is open with ajp13 as a service, but i do not know what that means. will look into it
 - port 53 is open with tcpwrapped, another thing ill look into.
 
-
+2.) gobuster for the custard
+-
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/20375b49-26ef-4a3a-89e3-de04a362b30a)
+- ok what the frick i skipped checking on the ports so possibly this has something to do with it.
