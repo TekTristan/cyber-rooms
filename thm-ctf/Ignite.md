@@ -19,4 +19,6 @@ ignite ctf less goo
 -
 - ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/3c1a5ae2-4bb9-4ae6-9569-96e94049e31c)
 - some results
-- 
+- side note: possible sql injection since i have to possibly install the cms datababse
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/63dc24c2-a211-4349-9fc8-78858a6c7256)
+
