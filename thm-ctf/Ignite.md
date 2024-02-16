@@ -33,10 +33,10 @@ ignite ctf less goo
 -
 - ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/0fe32828-2cfa-4d3c-b889-817fdd7badb2)
 - after finding the script i would move it to another file and edit it
-- ![Uploading image.png…]()
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/fb9bec34-8564-4dda-81b7-8ba86ff14b2c)
 - after I changed the url to the website i used netcat and ran the rm command to spawn a shell
-- part 1: ![Uploading image.png…]()
-- part 2: ![Uploading image.png…]()
+- part 1: ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/7a084f6f-d420-41a8-9c50-e75fd74d4001)
+- part 2: ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/ded81f6e-945a-4da6-a7bd-e8ceffabf533)
 - and got flag, and trying to spawn a nicer looking shell then privlege escalation
 
 5.) privlege escalation
