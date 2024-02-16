@@ -41,5 +41,15 @@ ignite ctf less goo
 
 5.) privlege escalation
 -
+- from webpage we know that database.php has some important stuff for username and pw
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/84d5a46f-4649-4457-81b3-0b966183503d)
+- to find where that is use this
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/3d487821-3d1a-4afe-8a6f-014aecf616b1)
+- given a path and cat that path to find the root pw
+-![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/31d478c5-0ceb-4d10-8913-c91cc71384b0)
+- login to root w/ su -root
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/85a895d7-807d-4224-acd0-5fff7bea4d71)
+- and done
+
 
 
