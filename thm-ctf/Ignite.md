@@ -21,4 +21,25 @@ ignite ctf less goo
 - some results
 - side note: possible sql injection since i have to possibly install the cms datababse
 - ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/63dc24c2-a211-4349-9fc8-78858a6c7256)
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/42149ea3-e8a4-4d32-b64f-ee8c232aa623)
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/4f268aca-1e16-4a1b-9ddc-b48b0b08c85d)
+- i overthought the process, just tried to use admin : admin as username and pw in /fuel and it worked 
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/6214cb9c-e3a4-4729-8616-e0ab26f1e38c)
+- possible create a new user? but i already have admin with super duper privleges.
+- at this point i am trialing and error
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/f9fdd3cd-1a7a-4909-a833-5d36ed191b0e)
+
+4.) found the right script
+-
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/0fe32828-2cfa-4d3c-b889-817fdd7badb2)
+- after finding the script i would move it to another file and edit it
+- ![Uploading image.png…]()
+- after I changed the url to the website i used netcat and ran the rm command to spawn a shell
+- part 1: ![Uploading image.png…]()
+- part 2: ![Uploading image.png…]()
+- and got flag, and trying to spawn a nicer looking shell then privlege escalation
+
+5.) privlege escalation
+-
+
 
