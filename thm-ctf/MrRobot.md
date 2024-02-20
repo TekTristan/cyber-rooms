@@ -27,3 +27,15 @@ taking control of robots in a ctfs
 -
 - do not want to rewrite notes so here is my onenote screenshot
 - ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/838f1733-4648-4ec8-a9d3-639e779b69a2)
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/5e8721d7-7935-4888-857a-f0c86205738d)
+- nice login ig
+
+5.) messing around again
+-
+- since php possibly run a reverse-shell script, tried import or export something but dead end, found editor
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/966fa292-3d73-4eb3-a102-17e5b5d686de)
+- wrong file
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/0cba2b07-46c7-4036-902d-d486202596d8)
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/5c7effcb-d3fc-4352-a727-73e95c726b36)
+- got access and shell but cannot open the text file
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/fa6e3c63-181f-486a-8919-39944ef813a0)
