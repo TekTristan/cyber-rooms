@@ -39,3 +39,23 @@ taking control of robots in a ctfs
 - ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/5c7effcb-d3fc-4352-a727-73e95c726b36)
 - got access and shell but cannot open the text file
 - ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/fa6e3c63-181f-486a-8919-39944ef813a0)
+- clearly md5 hash
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/7a005146-e577-40fc-a58a-45831523a5aa)
+- so convert it to find the pw for robot
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/56f64127-8344-4b56-a424-4188bd48042e)
+  - 	abcdefghijklmnopqrstuvwxyz
+- after getting key 2 privlege escalate
+
+6.) priv escalation
+-
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/e042f7be-5c59-4efe-ba81-3ab2cfd148d2)
+- uh okay?
+- ran a command to find suid bit set that I can use to gain root
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/4d74aeb3-38b9-4491-9316-93a138eb785d)
+- nmap boooiii
+- look at gtfo bins
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/09a21cce-832f-4861-851c-9403d9c352d2)
+- okay time to cook
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/72696b9a-7700-4d95-8a58-5acea7ca72e9)
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/a6e42762-edc8-474c-8d3c-d55c17a3ed41)
+- doneeeeeeeee
