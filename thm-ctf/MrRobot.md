@@ -22,3 +22,8 @@ taking control of robots in a ctfs
 - ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/6b99a8aa-18ab-49fd-9104-be72f84eef32)
 - randomly got these usernames? or some sort of clue
 - ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/1c89c6b8-d6a5-4cb6-9185-b35a7cc62650)
+
+4.) used hydra for username and to find password
+-
+- do not want to rewrite notes so here is my onenote screenshot
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/838f1733-4648-4ec8-a9d3-639e779b69a2)
