@@ -55,4 +55,18 @@ alice in wonderland medium ctf woo
 - ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/65746fc5-55fe-4162-b028-0bcb2081e4f8)
 - ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/c9ba0c9b-cbc9-4012-a881-8b0f7fe545e4)
 - peeped that date is the command that I could exploit
-- 
+- since date is the first thing that is called in my path, do this
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/3d24855c-f9ab-44fd-97f0-66754a6f51c3)
+- changed the date with a exploited script to give me shell for hatter, changed the permission on date to be able to use it w/ rabbit, then called teaParty,
+- got pw for hatter
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/d851116f-8d82-4c5b-8f90-3fb4ff9a7544)
+- WhyIsARavenLikeAWritingDesk?
+
+7.) further into root
+-
+- ran getcap -r / 2>/dev/null after ssh into hatter again
+    which would grab further exploitations within the binary that have its capabilities set
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/666f040b-7e75-4608-b6f9-98b90c455556)
+- gtfo bins then done
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/6f1806b4-fcfc-4b07-af71-a4ad19f0e322)
+
