@@ -39,3 +39,16 @@ picoCTF 2022 of the Reversal of the Engineering of the brain
 - decryption = str_xor(flag_enc.decode(), "utilitarian")
         print(decryption)
 - or deleting the function and leaving this xor line would just print the flag when calling the python file.
+
+5.) Safe Opener
+-
+- first things first create a folder to be a lil more organized
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/8b63a77c-a8dd-41bb-bc5b-6ab2c3594605)
+- java file looks like this in sublime
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/7b2432ea-db14-4e6b-a712-53065cad18d2)
+- cGwzYXMzX2wzdF9tM18xbnQwX3RoM19zYWYz is the encoded key
+- decode the base64 line
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/d8996eec-1907-4474-8ba1-7756d0d7a083)
+- or this to be weird
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/832a098c-49a6-45eb-adcd-78b2b468d4dc)
+
