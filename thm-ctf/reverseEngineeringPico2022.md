@@ -17,3 +17,25 @@ picoCTF 2022 of the Reversal of the Engineering of the brain
 -![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/c38b4913-87d6-4d0d-88d8-70ef9304b1a9)
 -![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/8d4b1c7d-893a-4e48-a891-85190532f800)
 - layout asm to show the assembly code with each register, saw how it used call with sleep function, moved the breakpoint there with break *(main+99) then jmped over the breakpoint to not run sleep then the flag ran.
+
+-
+
+- Day 2 of trying this big boy
+-
+4.) patchme.py
+- 
+- needs a password for this python file
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/96cb9c30-2d58-48d1-8185-b702e3312faf)
+- moving both the py file and flag into another folder then using sublime to open them like subl .
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/21e2aa09-a902-4abc-b76b-e82cc2d91414)
+- looking at this function where it needs the password to be those strings, that are concatenated.
+- "ak98" + \
+                   "-=90" + \
+                   "adfjhgj321" + \
+                   "sleuth9000"):
+- so therefore in my superdupertek expertise it's ak98-=90adfjhgj321sleuth9000
+- wooolah
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/cb590d13-7303-4080-b434-5a2d94549c15)
+- decryption = str_xor(flag_enc.decode(), "utilitarian")
+        print(decryption)
+- or deleting the function and leaving this xor line would just print the flag when calling the python file.
