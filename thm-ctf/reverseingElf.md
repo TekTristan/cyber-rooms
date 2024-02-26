@@ -1,4 +1,4 @@
-![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/4770c037-7d3d-4da0-8c23-8940829de04b)![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/efa330ff-388c-49c0-8c5e-3f6c125dd59c)easy reverse-engineering type beat s/o uzui 
+easy reverse-engineering type beat s/o uzui 
 -
 
 1.) cracking the first file
