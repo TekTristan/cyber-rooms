@@ -1,4 +1,4 @@
-![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/efa330ff-388c-49c0-8c5e-3f6c125dd59c)easy reverse-engineering type beat s/o uzui 
+![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/4770c037-7d3d-4da0-8c23-8940829de04b)![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/efa330ff-388c-49c0-8c5e-3f6c125dd59c)easy reverse-engineering type beat s/o uzui 
 -
 
 1.) cracking the first file
@@ -25,3 +25,21 @@
 
 4.) crack the fourth of the 4th and the furth file
 -
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/150084f8-aef7-4949-8227-e42a17739447)
+- possibly means that it has some debugging information when it says not stripped
+- strcmp or string compare when tried to run
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/d4f5340f-23ad-4db8-8cb4-20443b33d693)
+- new pw, shows that strcmp is being called with "my_m0r3_s3cur3_pwd" as one of the arguments
+
+5.) the 5th of the cracked files
+-
+- file that boy
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/e261eb15-989f-487b-9b73-c620957d5c89)
+- again not stripped
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/b10d26f3-5b1e-4084-a4ae-3b899d27bfbc)
+- same thing with perms
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/ba4aa67e-9f3b-48b5-b369-af7c23f90a78)
+- changed perms of file and shows to enter input after running.
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/434a1359-ac33-4012-ac8d-dc6e021a7bd5)
+- shows a repeatable function from anotrher input that I injected
+- OfdlDSA|3tXb32~X3tX@sX`4tXtz which is the password in there, almost looked over it lol
