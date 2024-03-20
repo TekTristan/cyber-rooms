@@ -18,5 +18,5 @@ this week of new binary fweaking exploitation my brain is loaded with chicken ba
 - ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/f60cb2da-aa29-4473-91cd-d12f39aef221)
 - subtracted the differences unless there is some sort of super duper way
 - then provided the difference with pico at the end
-- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/c5cf0268-37ab-4a3d-b730-e4796529843e)
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/bcefc5ff-eeca-458c-96a2-2968a3e56736)
 
