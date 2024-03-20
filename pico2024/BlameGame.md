@@ -19,5 +19,6 @@ I am too lazy to open my kali machine to show this, so this is based off the web
 -
 - use this to check for all users includign all unique authors
 - git log --all --format='%aN' | sort -u
-- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/bf096916-4bcf-45b2-8c5d-ad7a67409c94)
+- ![image](https://github.com/TekTristan/cyber-rooms/assets/92371193/89adff19-9ad1-4ef0-84af-3d4ad7ae7bcb)
+
 
